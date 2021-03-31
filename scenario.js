@@ -91,7 +91,7 @@ module.exports = scenario = {
   "Apple_20": {
     question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_50' },
+      { msg: 'Назад', next: 'Apple_10' },
       { msg: 'iPhone 12 Pro Max', next: 'Поломка' },
       { msg: 'iPhone 12 Pro', next: 'Поломка' },
       { msg: 'iPhone 12', next: 'Поломка' },
@@ -103,7 +103,7 @@ module.exports = scenario = {
   "Apple_30": {
     question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_20' },
+      { msg: 'Назад', next: 'Apple_10' },
       { msg: 'iPhone 11 Pro Max', next: 'Поломка' },
       { msg: 'iPhone 11 Pro', next: 'Поломка' },
       { msg: 'iPhone 11', next: 'Поломка' },
@@ -114,7 +114,7 @@ module.exports = scenario = {
   "Apple_40": {
     question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_30' },
+      { msg: 'Назад', next: 'Apple_10' },
       { msg: 'iPhone XS Max', next: 'Поломка' },
       { msg: 'iPhone XS', next: 'Поломка' },
       { msg: 'iPhone X', next: 'Поломка' },
@@ -126,7 +126,7 @@ module.exports = scenario = {
   "Apple_60": {
     question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_40' },
+      { msg: 'Назад', next: 'Apple_50' },
       { msg: 'iPhone 8 Plus', next: 'Поломка' },
       { msg: 'iPhone 8', next: 'Поломка' },
       { msg: 'Отключить бота', next: 'Отключение' }
@@ -134,9 +134,9 @@ module.exports = scenario = {
   },
 
   "Apple_70": {
-    question: `Уточните модель📱`,
+    question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_60' },
+      { msg: 'Назад', next: 'Apple_50' },
       { msg: 'iPhone 7 Plus', next: 'Поломка' },
       { msg: 'iPhone 7', next: 'Поломка' },
       { msg: 'Отключить бота', next: 'Отключение' }
@@ -146,7 +146,7 @@ module.exports = scenario = {
   "Apple_80": {
     question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_70' },
+      { msg: 'Назад', next: 'Apple_50' },
       { msg: 'iPhone 6s Plus', next: 'Поломка' },
       { msg: 'iPhone 6 Plus', next: 'Поломка' },
       { msg: 'iPhone 6s', next: 'Поломка' },
@@ -156,9 +156,9 @@ module.exports = scenario = {
   },
 
   "Apple_90": {
-    question: `Уточните модель📱`,
+    question: `Уточните модель`,
     btns: [
-      { msg: 'Назад', next: 'Apple_80' },
+      { msg: 'Назад', next: 'Apple_50' },
       { msg: 'iPhone SE', next: 'Поломка' },
       { msg: 'iPhone 5S', next: 'Поломка' },
       { msg: 'iPhone 5C', next: 'Поломка' },
@@ -190,10 +190,10 @@ module.exports = scenario = {
     ]
   },
 
-  "Android_20": {
+  "Android_30": {
     question: `Напишите модель телефона`,
     btns: [
-      { msg: 'Назад', next: 'Android_20' },
+      { msg: 'Назад', next: 'Android_10' },
       { msg: 'Пропустить', next: 'Поломка' },
       { msg: 'Отключить бота', next: 'Отключение' }
     ]
