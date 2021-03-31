@@ -19,5 +19,6 @@
   "homepage": "https://github.com/i-bayanov/macprofi-bot#readme",
   "dependencies": {
     "node-vk-bot": "^1.2.3"
-  }
+  },
+  "devDependencies": {}
 }
