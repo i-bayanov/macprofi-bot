@@ -1,0 +1,23 @@
+{
+  "name": "macprofi-bot",
+  "version": "1.0.0",
+  "description": "Bot for the macprofi62 VK group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-bayanov/macprofi-bot.git"
+  },
+  "author": "Ilya Bayanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-bayanov/macprofi-bot/issues"
+  },
+  "homepage": "https://github.com/i-bayanov/macprofi-bot#readme",
+  "dependencies": {
+    "node-vk-bot": "^1.2.3"
+  }
+}
