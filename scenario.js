@@ -258,7 +258,7 @@ module.exports = scenario = {
       { msg: 'Lenovo', next: 'Поломка_ноут' },
       { msg: 'Asus', next: 'Поломка_ноут' },
       { msg: 'Acer', next: 'Поломка_ноут' },
-      { msg: 'Далее', next: 'Ноутбук_10' },
+      { msg: 'Далее', next: 'Ноутбуки_10' },
       { msg: 'Отключить бота', next: 'Отключение' }
     ]
   },
